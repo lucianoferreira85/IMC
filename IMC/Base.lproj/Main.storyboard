@@ -35,9 +35,6 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peso (Kg)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0K-w0-l15">
                                 <rect key="frame" x="60" y="205" width="110" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="110" id="LNf-yN-gD9"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -69,7 +66,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Opf-Zi-wEx"/>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEo-wb-Grk"/>
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zg2-jg-zss">
@@ -108,6 +105,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.31764705882352939" green="0.69411764705882351" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="V7y-Af-IXo" firstAttribute="width" secondItem="k0K-w0-l15" secondAttribute="width" multiplier="0.65" id="0aw-Od-b9n"/>
                             <constraint firstItem="cOZ-AO-XuI" firstAttribute="width" secondItem="k0K-w0-l15" secondAttribute="width" multiplier="0.627273" id="91k-Gp-Jo2"/>
                             <constraint firstAttribute="bottom" secondItem="Zg2-jg-zss" secondAttribute="bottom" id="Ffa-IJ-teo"/>
                             <constraint firstItem="cOZ-AO-XuI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="93" id="Hei-ND-iRt"/>
@@ -133,11 +131,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ivResult" destination="l5z-ZQ-zz3" id="KzY-T4-T3t"/>
-                        <outlet property="lbResult" destination="RB6-cv-Sbs" id="njY-ej-0EG"/>
-                        <outlet property="tfHeight" destination="wmM-Gq-9Ir" id="ATv-ac-EqN"/>
+                        <outlet property="ivResult" destination="l5z-ZQ-zz3" id="Svl-XI-G5t"/>
+                        <outlet property="lbResult" destination="RB6-cv-Sbs" id="tfz-Xe-xYW"/>
+                        <outlet property="tfHeight" destination="wmM-Gq-9Ir" id="bRD-Ie-tdl"/>
                         <outlet property="tfWeight" destination="V7y-Af-IXo" id="bAS-7m-W46"/>
-                        <outlet property="viewResult" destination="Zg2-jg-zss" id="G0j-6s-Dd7"/>
+                        <outlet property="viewResult" destination="Zg2-jg-zss" id="9Al-fg-HTP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
