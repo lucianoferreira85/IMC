@@ -1,6 +1,10 @@
 # Aplicativo Calculo de IMC
 
-Nesse Aplicativo aprendemos sobre:
+Aplicativo criado no curso de iOS do Eric Brito.
+
+o Aplicativo faz o calculo de massa corporal do usuário e informa na tela se o mesmo está magro, abaixo do peso, no peso ideal, sobrepeso ou com Obesidade.
+
+No desenvolvimento aprendemos sobre:
 * IDE XCODE
 * Storyboard
 * Autolayout
