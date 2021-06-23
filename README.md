@@ -1,5 +1,10 @@
-# IMC
-Aplicativo criado no curso de iOS do Eric Brito.
+# Aplicativo Calculo de IMC
+
+Nesse Aplicativo aprendemos sobre:
+* IDE XCODE
+* Storyboard
+* Autolayout
+* Constrainsts
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/42683152/123018118-5e974000-d3a4-11eb-9065-d7793423cc36.png" width="350" title="hover text">
